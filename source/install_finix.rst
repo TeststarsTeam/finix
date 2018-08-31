@@ -4,7 +4,7 @@ finix在windows下的配置
 -----------------------
 1. 下载wings的安装包，在码云下载
 
-see https://gitee.com/teststars/wings_release.git.
+   see https://gitee.com/teststars/wings_release.git.
 
 2. 解压安装包，点击wings.exe,打开wings使用界面
 
@@ -24,13 +24,13 @@ finix在linux下的配置
 ----------------------
 1. 下载wings的安装包，在码云下载
 
-see https://gitee.com/teststars/wings_release.git.
+   see https://gitee.com/teststars/wings_release.git.
 
 2. 解压安装包，点击wings.exe,打开wings使用界面
 
 3. 解压wingsforlinux.tar.gz到linux目录下（其中/home/wings/nginx为linux下工程所在路径）执行以下命令::
 
-./wings_parse /home/wings/nginx
+   ./wings_parse /home/wings/nginx
 
 4. 拷贝linux下生成的FunXml与GlobalXml到windows目录下
 
