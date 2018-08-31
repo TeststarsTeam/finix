@@ -22,30 +22,22 @@ Wings是一个智能的、全自动的单元测试用例生成系统，更好的
 Documentation
 -------------
 
-http://kiwitcms.readthedocs.org/
+https://finix.readthedocs.io/
 
 
 Installation
 ------------
 
-See http://kiwitcms.readthedocs.io/en/latest/installing_docker.html
+
 
 
 Contribution
 ------------
 
-See http://kiwitcms.readthedocs.org/en/latest/contribution.html
+
 
 Support
 -------
 
-Commercial support for Kiwi TCMS is available from
-`Mr. Senko <http://MrSenko.com>`_. For more information, pricing and support
-levels info see http://MrSenko.com/.
 
-Indices and tables
-------------------
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
