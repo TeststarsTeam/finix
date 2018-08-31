@@ -12,7 +12,10 @@ Welcome to finixs's documentation!
    
 
    关于 finix <about.rst>
-   finix安装 <install_finix.rst>
+   安装 finix <install_finix.rst>
+   运行 finix <run_finix.rst>
+   
+   
 
 
 
