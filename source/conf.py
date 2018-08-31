@@ -19,7 +19,7 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = 'Wings'
+project = 'finix'
 copyright = '2018, teststars'
 author = 'teststars'
 
@@ -115,7 +115,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Wingsdoc'
+htmlhelp_basename = 'finixdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -142,7 +142,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Wings.tex', 'Wings Documentation',
+    (master_doc, 'finix.tex', 'finix Documentation',
      'teststars', 'manual'),
 ]
 
@@ -152,7 +152,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wings', 'Wings Documentation',
+    (master_doc, 'finix', 'finix Documentation',
      [author], 1)
 ]
 
@@ -163,8 +163,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Wings', 'Wings Documentation',
-     author, 'Wings', 'One line description of project.',
+    (master_doc, 'finix', 'finix Documentation',
+     author, 'finix', 'One line description of project.',
      'Miscellaneous'),
 ]
 
