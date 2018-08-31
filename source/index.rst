@@ -11,7 +11,7 @@ Welcome to finixs's documentation!
    
    
 
-   About finix <about.rst>
+   关于 finix <about.rst>
    finix安装 <install_finix.rst>
 
 
