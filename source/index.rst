@@ -7,7 +7,7 @@ Welcome to finixs's documentation!
 =================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    
    
 
