@@ -13,23 +13,19 @@ Welcome to finixs's documentation!
 
 About finix
 ==================
-Brief history
+finix介绍
 -------------
 
-* Feb 2009 - Project created by Red Hat, Inc. as a replacement for Testopia
-  under the name Nitrate
-* Nov 2014 - Source code published on GitHub without previous history
-* Aug 2016 - Mr. Senko starts contributing to Nitrate
-* May 2017 - Upstream appears to be totally unresponsive, Mr. Senko
-  `creates a fork <http://mrsenko.com/blog/mr-senko/2017/05/26/nitrate-is-now-kiwitestpad/>`_
-  and continues rapid development separately
-* Aug 2017 - The fork has support for the latest Django version
-* Sep 2017 - Project name changed to **Kiwi TCMS** and migrated to Python 3,
-  started migrating to modern UI using Patternfly
-* Oct 2017 - Kiwi TCMS has an official website at http://kiwitcms.org and
-  will be developed as a community project sponsored by Mr. Senko.
-* Nov 2017 - merge the python-nitrate API client sources and modify them
-  to work with the current code base.
+在软件开发领域，有一个一直以来无法攻克的难题，也是计算机软件诞生以来就伴随的问题，即测试用例的自动生成。软件测试过程实质是一种对被测试软件广阔输入空间的枚举过程，提升软件测试的效率，其根本在于自动测试用例生成系统的技术突破。而在这个技术突破前，软件测试冗长耗时又基于人工经验的黑盒枚举和验证过程，让众多企业无法避免，只能硬着头皮上。
+制约测试用例生成，最关键的底层技术是复杂的参数解析技术。即：能够在编译器层面对于任意复杂的类型，任意定义嵌套层级的递归解析。如果没有这个关键技术的突破，那么测试用例自动生成系统要么无法商用，要么将以极低的效率来演化、产生合规的测试数据。例如著名的模糊测试工具American Fozzy Lop，它并不能够识别用户的程序所需要的结构类型，需要从最外层进行基于搜索算法进行演化。而程序的特性是接口层面的输入和内部某个模块的数据要求距离很远，外部数据通常是经过层层复杂转换才可以成为内部模块所需要的数据结构类型，因此从外层探索所需要的计算量和时间将是难以想象的。基于American Fuzzy Lop,为了能够生成一个合法的SQL 语句，让程序内部模块能够通过外围数据校验需要探索时间以天数计。如果从软件内部结构分析产生用例驱动，就需要对软件的编译结构进行深度理解。可行的测试用例生成系统，应该是基于程序的中间（关键入口）作为测试切入最为合适。这些模块的输入，已经将模糊的输入转化为高度结构化的参数。只要能够识别这些复杂结构，将复杂数据类型一步步降解为简单数据类型，同时完成参数构造，就可以自动完成驱动用例的生成。
+基于模块的测试，可以划归为传统的单元测试，它是将缺陷发现并遏制在研发阶段最好的方法。但受限于单元测试需要开发大量的驱动程序，在行业内的推广和应用受到了极大的限制。当然单元测试也可以在系统集成完毕后执行，避免构建虚拟的桩程序。针对单元测试中面临的上述问题，星云测试通过大量研究和测试，发布测试用例驱动自动生成系统Wings，研究并解决了如下难点，现分享给大家。
+（1）	程序参数深度分析问题
+Wings通过编译器底层技术，将输入的源文件，按照函数为单位，形成模块对象。对象中包含函数的输入参数，返回值类型等信息，供驱动函数模块和测试用例模块使用。每个文件作为一个单元，针对其中的每个函数的每个参数进行深度解析，对于嵌套类型，复杂类型等都可以实现精确的解析和分解，将复杂类型逐层讲解为基础数据类型，并产生参数结构的描述文件（PSD）。
+（2）	函数驱动自动生成模块
+依据PSD文件的格式信息，自动生成被测源程序的所有驱动函数，单元测试过程不再依赖开发人员手动编写测试函数，只需将生成的驱动函数和被测源文件一起编译，即可执行测试并查看测试结果。测试驱动自动生成程序基于PSD描述，全自动构建驱动被测程序运行的所有参数，必须的全局变量，并可根据复杂变量的层级结构产生结构化的测试驱动程序，可以节省大量的单元测试用例的编写时间。
+（3）	测试数据自动生成与管理  
+用于自动生成测试数据，测试数据与被测函数提取的信息相互对应，数据以一定的层次逻辑关系存储在json文件中。数据和经过分解和展开后的数据类型是一一对应的。这些数据用户可以根据业务要求随意边际，并且用json文件进行结构化，层次化展示，非常的清晰。其中的测试数据包括全局变量值、被测函数调用时的参数值。
+
 
 
 Documentation
