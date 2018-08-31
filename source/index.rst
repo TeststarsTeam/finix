@@ -11,9 +11,7 @@ Welcome to finixs's documentation!
    :caption: Contents:
    
 
-
-
-Indices and tables
+介绍finix
 ==================
 
 * :ref:`genindex`
