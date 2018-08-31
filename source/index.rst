@@ -7,12 +7,12 @@ Welcome to finixs's documentation!
 =================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   
    
 
-About finix <about.rst>
-finix安装 <install_finix.rst>
+   About finix <about.rst>
+   finix安装 <install_finix.rst>
 
 
 
