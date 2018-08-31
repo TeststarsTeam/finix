@@ -10,5 +10,5 @@ Welcome to finixs's documentation!
    :maxdepth: 2
    :caption: Contents:
    
-   hello
+    hello
 
