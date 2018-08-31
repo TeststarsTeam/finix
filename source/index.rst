@@ -11,9 +11,6 @@ Welcome to finixs's documentation!
    :caption: Contents:
    
 
-介绍finix
+关于finix
 ==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. finix介绍
