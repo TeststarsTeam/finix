@@ -13,7 +13,8 @@ Welcome to finixs's documentation!
 
 About finix
 ==================
-Brief history
+Brief histor
+===================
 
 Feb 2009 - Project created by Red Hat, Inc. as a replacement for Testopia under the name Nitrate
 Nov 2014 - Source code published on GitHub without previous history
@@ -24,14 +25,17 @@ Sep 2017 - Project name changed to Kiwi TCMS and migrated to Python 3, started m
 Oct 2017 - Kiwi TCMS has an official website at http://kiwitcms.org and will be developed as a community project sponsored by Mr. Senko.
 Nov 2017 - merge the python-nitrate API client sources and modify them to work with the current code base.
 Documentation
+=============
 
 http://kiwitcms.readthedocs.org/
 
 Installation
+============
 
 See http://kiwitcms.readthedocs.io/en/latest/installing_docker.html
 
 Contribution
+=============
 
 See http://kiwitcms.readthedocs.org/en/latest/contribution.html
 
