@@ -299,6 +299,7 @@ unsigned long类型
 原函数::
 
   void BuiltinTypeULong(unsigned long l_Ulong);
+  
 PSD结构描述::
   
   <BuiltinTypeULong parmType0="unsigned long" parmNum="1">
