@@ -7,9 +7,11 @@ char类型
 --------
 
 原函数::
+
   void BuiltinTypeChar(char c_char);
 
 PSD结构描述::
+
   <BuiltinTypeChar parmType0="char" ParNum="1">
     <c_char baseType1="BuiltinType" type="ZOA_CHAR_S" />
     <returnType returnType="void" />
