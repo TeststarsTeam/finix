@@ -44,7 +44,7 @@ type说明
 ---------
 +-------------------------------------------------+------------------------+
 |ZOA_CHAR_S/ZOA_UCHAR/ZOA_INT/ZOA_UINT/ZOA_LONG   |                        |
-|ZOA_ULONG/ZOA_FLOAT/ZOA_UFLOAT/ZOA_SHOTR         |    基本类型            |
+|ZOA_ULONG/ZOA_FLOAT/ZOA_UFLOAT/ZOA_SHOTR         |基本类型                |
 |ZOA_USHORT/ZOA_DOUBLE/ZOA_UDOUBLE                |                        |      
 +-------------------------------------------------+------------------------+
 | StructureOrClassType                            |结构体类型              | 
