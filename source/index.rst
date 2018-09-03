@@ -15,6 +15,7 @@ Welcome to finixs's documentation!
    安装 finix <install_finix.rst>
    运行 finix <run_finix.rst>
    类型说明 finix <type_finix.rst>
+   tutorial.rst
    
    
 
