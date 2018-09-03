@@ -7,7 +7,7 @@ int类型
 -------
 原函数::
 
-void ArrayTypeIntOne(int array_one[2]);
+ void ArrayTypeIntOne(int array_one[2]);
 
 PSD结构描述::
 
@@ -150,7 +150,7 @@ char类型不定数组
 ----------
 原函数::
 
-void ArrayTypeNoSizeCharOne(char array_one[]);
+ void ArrayTypeNoSizeCharOne(char array_one[]);
 
 PSD结构描述::
 
