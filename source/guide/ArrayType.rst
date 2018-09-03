@@ -4,6 +4,6 @@ ArrayType
 =========
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    
-   guide/OneArrayType.rst
+   OneArrayType.rst

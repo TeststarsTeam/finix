@@ -1,4 +1,4 @@
-.._OneArrayType
+.. _OneArrayType
 
 一维数组
 ========
