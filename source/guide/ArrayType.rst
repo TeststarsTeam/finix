@@ -7,3 +7,5 @@ ArrayType
    :maxdepth: 2
    
    OneArrayType.rst
+   TwoArrayType.rst
+   ThreeArrayType.rst
