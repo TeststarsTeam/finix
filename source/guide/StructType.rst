@@ -4,7 +4,7 @@ StructType
 ==========
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    
-   guide/StructPointType.rst
+   StructPointType.rst
    

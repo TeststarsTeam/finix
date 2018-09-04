@@ -1,7 +1,7 @@
 .. _Array&PointType:
 
 Array&PointType
-=========
+===============
 
 .. toctree::
    :maxdepth: 2
