@@ -4,7 +4,7 @@ StructType
 ==========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
 普通结构体类型
 --------------
