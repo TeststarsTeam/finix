@@ -13,3 +13,4 @@ Tutorial
    guide/StructType.rst
    guide/EnumType.rst
    guide/UnionType.rst
+   guide/NestStructType.rst
