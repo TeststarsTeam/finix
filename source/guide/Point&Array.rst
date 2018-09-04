@@ -1,6 +1,6 @@
 .. _Array&PointType:
 
-Array&PointType
+数组指针与指针数组类型
 ===============
 
 .. toctree::

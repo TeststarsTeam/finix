@@ -1,6 +1,6 @@
 .. _ArrayType:
 
-ArrayType
+数组类型
 =========
 
 .. toctree::

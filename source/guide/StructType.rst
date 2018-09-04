@@ -1,6 +1,6 @@
 .. _StructType:
 
-StructType
+结构体类型
 ==========
 
 .. toctree::

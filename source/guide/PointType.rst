@@ -1,6 +1,6 @@
 .. _PointType:
 
-PointType
+指针类型
 ===========
 
 一级指针

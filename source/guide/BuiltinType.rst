@@ -1,6 +1,6 @@
 .. _BuiltinType:
 
-BuiltinType
+基本类型
 ===========
 
 char类型
