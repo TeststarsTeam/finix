@@ -8,4 +8,5 @@ StructType
    
    StructPointType.rst
    StructArrayType.rst
+   StructArrayPoint.rst
    
