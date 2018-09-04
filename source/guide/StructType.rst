@@ -6,6 +6,8 @@ StructType
 .. toctree::
    :maxdepth: 3
    
+   guide/StructPointType.rst
+   
 普通结构体类型
 --------------
 原函数::
@@ -115,4 +117,3 @@ PSD结构描述::
  }
  
  
- guide/StructPointType.rst
