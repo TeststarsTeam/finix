@@ -11,10 +11,10 @@ Welcome to finixs's documentation!
    
    
 
-   关于 finix <about.rst>
-   安装 finix <install_finix.rst>
-   运行 finix <run_finix.rst>
-   类型说明 finix <type_finix.rst>
+   About finix <about.rst>
+   Install finix <install_finix.rst>
+   Run finix <run_finix.rst>
+   Type introduce finix <type_finix.rst>
    tutorial.rst
    
    
