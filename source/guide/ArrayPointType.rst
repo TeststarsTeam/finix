@@ -4,6 +4,7 @@
 ========
 
 int *a[]
+--------
 原函数::
  
   void PointerArrayType(int *a[3]);
@@ -52,13 +53,16 @@ int **a[]
 原函数::
   
  void SecondPointerArrayType(int **a[3]); 
+ 
 PSD结构描述::
+
   <SecondPointerArrayType parmType0="int **[3]" parmNum="1">
     <a baseType1="ArrayType" RowSize="3" baseType2="PointerType" baseType3="PointerType" type="ZOA_INT" />
     <returnType returnType="void" baseType1="BuiltinType" type="ZOA_VOID" />
   </SecondPointerArrayType>
 
 驱动代码:: 
+
    /* 有参数的函数处理,Root,该文件对应的json，times是测试次数 
    * 函数原型:
    * void SecondPointerArrayType(int **a[3])
