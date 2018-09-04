@@ -1,6 +1,6 @@
-.. _ArrayType:
+.. _Array&PointType:
 
-ArrayType
+Array&PointType
 =========
 
 .. toctree::
