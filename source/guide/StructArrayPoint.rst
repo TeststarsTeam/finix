@@ -29,11 +29,12 @@
 
   };
 
-//被测函数
-void StructType8(struct my_struct(*a)[3]);
+ //被测函数
+ void StructType8(struct my_struct(*a)[3]);
 
-//函数指针赋值函数
-int fun1(int b, int c);
+ //函数指针赋值函数
+ int fun1(int b, int c);
+ 
 PSD结构描述::
 
   <StructType8 parmType0="struct my_struct (*)[3]" parmNum="1">
