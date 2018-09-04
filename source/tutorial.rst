@@ -10,3 +10,4 @@ Tutorial
    guide/ArrayType.rst
    guide/PointType.rst
    guide/Point&Array.rst
+   guide/StructType.rst
