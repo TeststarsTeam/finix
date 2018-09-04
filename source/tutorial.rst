@@ -15,3 +15,6 @@ Tutorial
    guide/UnionType.rst
    guide/NestStructType.rst
    guide/LinkNodeType.rst
+   guide/SystemType.rst
+   guide/FunctionType.rst
+   guide/GlobalType.rst
