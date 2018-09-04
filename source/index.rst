@@ -12,8 +12,7 @@ Welcome to finixs's documentation!
    
 
    About finix <about.rst>
-   Install finix <install_finix.rst>
-   Run finix <run_finix.rst>
+   Installling and Running finix <install_finix.rst>
    Type introduce finix <type_finix.rst>
    tutorial.rst
    
