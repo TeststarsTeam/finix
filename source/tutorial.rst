@@ -11,3 +11,5 @@ Tutorial
    guide/PointType.rst
    guide/Point&Array.rst
    guide/StructType.rst
+   guide/EnumType.rst
+   guide/UnionType.rst
