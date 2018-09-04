@@ -12,8 +12,8 @@ Welcome to finixs's documentation!
    
 
    About finix <about.rst>
-   Installling and Running finix <install_finix.rst>
-   Type introduce finix <type_finix.rst>
+   Installing and Running finix <install_finix.rst>
+   PSD file format description <type_finix.rst>
    tutorial.rst
    
    

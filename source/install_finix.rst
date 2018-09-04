@@ -36,8 +36,8 @@ On Unix Systems
 
 5. 完成驱动与值的生成
 
-Run finix
-----------
+Running finix
+--------------
 1.解压wings安装包，点击wings.exe ，打开wings界面图如下
 
 .. image:: /image/finix_logo.png
