@@ -7,4 +7,5 @@ StructType
    :maxdepth: 2
    
    StructPointType.rst
+   StructArrayType.rst
    
