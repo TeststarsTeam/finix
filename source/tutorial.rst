@@ -14,3 +14,4 @@ Tutorial
    guide/EnumType.rst
    guide/UnionType.rst
    guide/NestStructType.rst
+   guide/LinkNodeType.rst
