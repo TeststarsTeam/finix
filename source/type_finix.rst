@@ -45,7 +45,7 @@ code::
  //结构体作为函数参数
  void StructTypeTest1(myy_struct m_struct);
  
-  PSD file::
+PSD file::
   
   <StructTypeTest1 parmType0="myy_struct" parmNum="1">
     <m_struct baseType1="StructureOrClassType" type="StructureOrClassType" name="my_struct">
