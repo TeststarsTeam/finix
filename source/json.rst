@@ -47,7 +47,7 @@ code::
  //结构体作为函数参数
  void StructTypeTest1(myy_struct m_struct);
  
- json::
+json::
   {
    "StructTypeTest10" : {
       "m_struct" : {
