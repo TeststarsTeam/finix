@@ -48,6 +48,7 @@ code::
  void StructTypeTest1(myy_struct m_struct);
  
 json::
+
   {
    "StructTypeTest10" : {
       "m_struct" : {
