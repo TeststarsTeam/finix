@@ -64,7 +64,7 @@ PSD file::
         <next NodeType="LinkNode" baseType1="PointerType" type="StructureOrClassType" name="my_struct" />
     </m_struct>
     <returnType returnType="void" baseType1="BuiltinType" type="ZOA_VOID" />
-</StructTypeTest1
+  </StructTypeTest1
 
 PSD file attribute description
 ------------------------------
