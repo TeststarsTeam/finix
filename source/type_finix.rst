@@ -1,4 +1,4 @@
-finix overall description
+Finix overall description
 ========================
 
 The overall process of finix

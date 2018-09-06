@@ -1,4 +1,4 @@
-installing and running finix
+Installing and Running finix
 =============
 On Windows Systems
 -----------------------
