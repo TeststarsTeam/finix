@@ -1,5 +1,5 @@
-About finix
-===========
+Finix - Intelligent fully automatic test case drive generation system
+=====================================================================
 
 Introduction
 -------------
