@@ -42,4 +42,4 @@ Contribution
 Support
 -------
 
-  星云测试提供对finix的商业支持。 有关更多信息，定价和支持级别信息，请参阅http://www.threadingtest.com/
+  星云测试提供对finix的商业支持。 有关更多信息，定价和支持级别信息，请参阅 http://www.threadingtest.com/
