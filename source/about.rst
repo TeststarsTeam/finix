@@ -5,6 +5,7 @@ Introduction
 -------------
 
 finix是一个智能的、全自动测试用例驱动生成系统，更好的解决了单元测试遇到的诸多难点。
+Finix is an intelligent, fully automated test case driver generation system that better solves many difficulties encountered in unit testing.
 
 What problems did finix solve?
 ------------------------------
