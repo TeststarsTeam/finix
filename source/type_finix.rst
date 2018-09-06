@@ -1,12 +1,13 @@
 finix overall description
 ========================
-C type description
-------------------
-.. image:: /image/type.png
 
 The overall process of finix
 -----------------------------
 .. image:: /image/principle.png
+
+C type description
+------------------
+.. image:: /image/type.png
 
 Testing example
 ----------------
