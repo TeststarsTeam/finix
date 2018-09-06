@@ -4,6 +4,10 @@ C type description
 ------------------
 .. image:: /image/type.png
 
+The overall process of finix
+-----------------------------
+.. image:: /image/principle.png
+
 Testing example
 ----------------
 
