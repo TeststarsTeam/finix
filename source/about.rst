@@ -8,8 +8,8 @@ finix是一个智能的、全自动测试用例驱动生成系统，更好的解
 
 Finix is an intelligent, fully automated test case driver generation system that better solves many difficulties encountered in unit testing.
 
-What problems did finix solve?
-------------------------------
+Finix solves the problem of unit testing
+----------------------------------------
 * finix是智能的全自动测试用例驱动生成系统，可以为任意复杂参数结构C语言开发的系统全自动生成测试驱动程序。
 
 * finix可完成对于被测试函数的参数进行多层编译解析，并完成复杂参数赋值的代码的自动生成。
@@ -45,3 +45,5 @@ Support
 -------
 
   星云测试提供对finix的商业支持。 有关更多信息，定价和支持级别信息，请参阅 http://www.threadingtest.com/
+  
+  Commercial support for Finix is available from TestStars. For more information, pricing and support levels info see http://www.threadingtest.com/.
