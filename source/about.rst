@@ -4,7 +4,7 @@ About finix
 Introduction
 -------------
 
-finix是一个智能的、全自动的单元测试用例生成系统，更好的解决了单元测试遇到的诸多难点。
+finix是一个智能的、全自动测试用例驱动生成系统，更好的解决了单元测试遇到的诸多难点。
 
 What problems did finix solve?
 ------------------------------
@@ -37,6 +37,9 @@ Installation
 Contribution
 ------------
 
+  see https://finix.readthedocs.io/zh/latest/install_finix.html
 
 Support
 -------
+
+  星云测试提供对finix的商业支持。 有关更多信息，定价和支持级别信息，请参阅http://www.threadingtest.com/
