@@ -1,5 +1,5 @@
-PSD文件属性说明
-===============
+Finix overall description
+========================
 C type description
 ------------------
 .. image:: /image/type.png
