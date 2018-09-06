@@ -14,7 +14,6 @@ Welcome to finixs's documentation!
    About finix <about.rst>
    Installing and Running finix <install_finix.rst>
    PSD file format description <type_finix.rst>
-   Test case storage and display <json.rst>
    tutorial.rst
    
    
