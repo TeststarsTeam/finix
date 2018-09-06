@@ -3,6 +3,12 @@ finix overall description
 
 The overall process of finix
 -----------------------------
+
+1. 设置用户工程所在路径 
+2. 自动提取用户程序的结构，并存储为PSD结构
+3. 生成所有分析文件的驱动文件
+4. 点击值生成，完成所有分析文件包含函数的测试用例
+
 .. image:: /image/principle.png
 
 C type description
