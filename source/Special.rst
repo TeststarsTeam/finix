@@ -5,9 +5,25 @@
 
 函数参数为void *与函数指针
 -----------------
-针对函数参数为void*与函数指针的类型，wings首先会利用静态分析技术，获取函数参数为void *与函数指针时的具体赋值类型。例如下图中所示函数：
+针对函数参数为void*与函数指针的类型，wings首先会利用静态分析技术，获取函数参数为void *与函数指针时的具体赋值类型。例如下所示函数：
 
-.. image:: /image/figure22.png
+::
+
+	void func(void *p);
+	callFunc(int *p);
+	int callFunc(int *p)
+	{
+	  char *s ="abc";
+	  func(s);
+	  return 0;
+	}
+	int func(int(*f)(int));
+	void functest();
+	void functest()
+	{
+	 func(fun);
+	}
+
 
 Wings在静态解析时，会分析到func在被调用处的赋值类型为char *，赋值过程中将会对func的参数赋值为char *，wings在数据表格界面会标记void *处的具体赋值类型。Wings在静态分析过程中，会解析到func在被调用出的赋值函数为fun，在赋值过程中将会对func的参数赋值为fun。
 
