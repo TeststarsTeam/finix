@@ -38,19 +38,20 @@
 
 
 
-Installation
+
+Case
+-------------
+
+  see http://www.codewings.net/
+
+
+Download
 ------------
 
-  see https://finix.readthedocs.io/zh/latest/install_finix.html
+  see http://www.codewings.net/
 
-Contribution
-------------
-
-  see https://finix.readthedocs.io/zh/latest/install_finix.html
 
 Support
 -------
 
-  星云测试提供对finix的商业支持。 有关更多信息，定价和支持级别信息，请参阅 http://www.threadingtest.com/
-  
-  Commercial support for Finix is available from TestStars. For more information, pricing and support levels info see http://www.threadingtest.com/.
+  星云测试提供对Wings的商业支持。 有关更多信息，定价和支持级别信息，请参阅 http://www.codewings.net/
