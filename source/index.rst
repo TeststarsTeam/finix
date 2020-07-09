@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to finixs's documentation!
+Wings测试用例自动生成
 =================================
 
 .. toctree::
@@ -11,10 +11,13 @@ Welcome to finixs's documentation!
    
    
 
-   About finix <about.rst>
-   Installing and Running finix <install_finix.rst>
-   Finix overall description <type_finix.rst>
-   tutorial.rst
+   测试用例自动生成技术的意义 <about.rst>
+   wings单元测试自动生成技术 <about_wings.rst>
+   Paramemter Struture Description(PSD) <Paramemter.rst>
+   驱动代码的说明 <unit_testing.rst>
+   特殊赋值类型处理 <Special.rst>
+   数据表格 <data_table.rst>
+   wings部署操作说明 <wings_install.rst>
    
    
 
