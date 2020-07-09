@@ -57,7 +57,7 @@ stl标准模版库
 
 c++自定义模版类
 ----------------
-针对参数为自定义的模板类型，我们会分析模板类的具体类型，例如下图29中GetTest中模板类的类型为int与double，GetTestDemo中类型为std::string与double，我们针对模板类同样插入一个构造函数CustomTemplateClass，实际构造模板类对象的时，调用具体的赋值类型进行构造。
+针对参数为自定义的模板类型，我们会分析模板类的具体类型，例如下图中GetTest中模板类的类型为int与double，GetTestDemo中类型为std::string与double，我们针对模板类同样插入一个构造函数CustomTemplateClass，实际构造模板类对象的时，调用具体的赋值类型进行构造。
 
 .. image:: /image/figure29.png
 
