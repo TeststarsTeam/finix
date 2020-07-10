@@ -19,7 +19,7 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = 'finix'
+project = 'Wings'
 copyright = '2018, teststars'
 author = 'teststars'
 
