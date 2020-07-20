@@ -42,16 +42,16 @@
 Case
 -------------
 
-  see http://www.codewings.net/
+  See http://www.codewings.net/tutorials/
 
 
 Download
 ------------
 
-  see http://www.codewings.net/
+  See http://www.codewings.net/download/
 
 
 Support
 -------
 
-  星云测试提供对Wings的商业支持。 有关更多信息，定价和支持级别信息，请参阅 http://www.codewings.net/
+  See http://www.codewings.net/contact/
