@@ -58,10 +58,15 @@
 ----------------------
 
 **驱动生成**
+
 1.成员变量是类，将其类型存放在vector中（vector中初始存放驱动生成所生成的类的类型）
+
 2.对该类进行驱动生成，处理其成员变量
+
 3.遇见成员变量为类，与vector中对比
+
 4.如果存在相同数据的停止，此成员变量指针赋值为空，普通的类对象不再处理
+
 5.不同将类型放入vector中，继续执行2
 
 
@@ -69,21 +74,30 @@
 ^^^^^^^^
 
 **以MyObject类为例子**
+
 vector中存放顺序：
+
 MyObject， MyPointer， 然后就遇到 MyPointer中的成员变量MyObject m_object_，与MyObject相同，所有停止赋值，不对它进行处理。
+
 如果MyObject不存在默认构造函数，此时m_object_就无法生成，出现错误
 
 
 解决方法
 ^^^^^^^^
 
-在3中对比判断之前，先判断成员变量是否为指针，指针则对比，非指针，就存入vector中继续处理
-以MyObject类为例子，
+在3中对比判断之前，先判断成员变量是否为指针，指针则对比，非指针，就存入vector中继续处理.
+
+**以MyObject类为例子**
+
 vector中存放顺序：
-1， MyObject
-2， MyObject， MyPointer
-3， MyObject， MyPointer， MyObject
-4，MyPointer* m_pointer_ ;为指针，且有相同数据。驱动生成 MyPointer* m_pointer_ = nullptr；
+
+1.MyObject
+
+2.MyObject， MyPointer
+
+3.MyObject， MyPointer， MyObject
+
+4.MyPointer* m_pointer_ ;为指针，且有相同数据。驱动生成 MyPointer* m_pointer_ = nullptr；
 
 
 驱动代码
